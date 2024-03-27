@@ -20,7 +20,7 @@ public class Main {
             } else if (input.equals("v")) {
                 System.out.println("Type een cijfer in van 0 t/m 9");
                 int number = scanner.nextInt();
-                scanner.nextLine(); // Clearing the scanner buffer
+                scanner.nextLine();
                 if (number < 10) {
                     String result = translator.translate(number);
                     System.out.println("De vertaling van " + number + " is " + result);
